@@ -1,5 +1,7 @@
 # dirbbox_app
 
+![Flutter Deploy](https://github.com/lperezp/dirbbox-app-flutter/workflows/Flutter%20Deploy/badge.svg)
+
 A new Flutter application for Bootcamp by DoApps
 
 ## Getting Started
@@ -19,6 +21,6 @@ samples, guidance on mobile development, and a full API reference.
 
 ![screenshot](screenshot.png)
 
-### Developed :
+## Developed :
 
-Luis Eduardo
+[Luis Eduardo](https://lperezp.com)
