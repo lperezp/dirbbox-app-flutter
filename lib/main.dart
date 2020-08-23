@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 
-import 'pages/profile-page.dart';
-
+import 'pages/login-page.dart';
 
 void main() => runApp(MaterialApp(
   debugShowCheckedModeBanner: false,
-  home: ProfilePage(),
+  home: LoginPage(),
   theme: ThemeData(fontFamily: 'Gilroy'),
 ));
