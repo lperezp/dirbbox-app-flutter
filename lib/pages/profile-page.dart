@@ -124,7 +124,7 @@ class _ProfilePageState extends State<ProfilePage> {
             )),
         Container(
           padding: EdgeInsets.symmetric(horizontal: 30, vertical: 10),
-          child: MyFoldersRight(),
+          child: myFoldersRight(),
         ),
         Container(
             padding: EdgeInsets.symmetric(horizontal: 30, vertical: 10),
@@ -151,7 +151,7 @@ class _ProfilePageState extends State<ProfilePage> {
             )),
         Container(
           padding: EdgeInsets.symmetric(horizontal: 30, vertical: 10),
-          child: RecentUpload(),
+          child: recentUpload(),
         ),
         Container(
             padding: EdgeInsets.symmetric(horizontal: 30, vertical: 10),
@@ -186,14 +186,14 @@ class _ProfilePageState extends State<ProfilePage> {
             )),
         Container(
           padding: EdgeInsets.symmetric(horizontal: 30, vertical: 10),
-          child: MyFoldersLeft(),
+          child: myFoldersLeft(),
         ),
       ]),
     );
   }
 }
 
-Widget MyFoldersRight(){
+Widget myFoldersRight(){
   return Column(
     children: <Widget>[
       Container(
@@ -289,7 +289,7 @@ Widget MyFoldersRight(){
   );
 }
 
-Widget RecentUpload(){
+Widget recentUpload(){
   return Column(
     children: <Widget>[
       Container(
@@ -345,7 +345,7 @@ Widget RecentUpload(){
   );
 }
 
-Widget MyFoldersLeft(){
+Widget myFoldersLeft(){
   return Column(
     children: <Widget>[
       Container(
